@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+main,
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.section-heading{
+    margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.header-content-bottom,
+.header-content-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content-top{
+    margin-bottom: 30px;
+}
+.header-list{
+    display: flex;
+}
+.header-item:not(:last-child){
+    margin-right: 45px;
+}
+.header-logo{
+    margin-right: 40px;
+}
+
+
+.special-list{
+    display: flex;
+    justify-content: space-between;
+}
+.special-price{
+    margin-top: 15px;
+    margin-bottom: 47px;
+}
+.special-item:not(:last-child) .special-item-info:last-child{
+    margin-top: 20px;
+}
+
+
+
+.services-list{
+    display: flex;
+    justify-content: space-between;
+}
+.services-list{
+    margin-top: 20px;
+}
+
+
+
+.advantages-list{
+    display: flex;
+}
+.advantages-list:not(:last-child){
+    margin-bottom: 25px;
+}
+
+
+
+.placement-list{
+    display: flex;
+}
+.placement-list:not(:last-child){
+    margin-bottom: 25px;
+}
